@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		580DF483287B184C002F7B4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580DF482287B184C002F7B4B /* AppDelegate.swift */; };
+		580DF485287B184C002F7B4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580DF484287B184C002F7B4B /* SceneDelegate.swift */; };
+		580DF487287B184C002F7B4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580DF486287B184C002F7B4B /* ViewController.swift */; };
+		580DF48A287B184C002F7B4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 580DF488287B184C002F7B4B /* Main.storyboard */; };
+		580DF48C287B1851002F7B4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 580DF48B287B1851002F7B4B /* Assets.xcassets */; };
+		580DF48F287B1852002F7B4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 580DF48D287B1852002F7B4B /* LaunchScreen.storyboard */; };
+		580DF49A287B1852002F7B4B /* sehirTanitimKitabiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580DF499287B1852002F7B4B /* sehirTanitimKitabiTests.swift */; };
+		580DF4A4287B1852002F7B4B /* sehirTanitimKitabiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580DF4A3287B1852002F7B4B /* sehirTanitimKitabiUITests.swift */; };
+		580DF4A6287B1852002F7B4B /* sehirTanitimKitabiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580DF4A5287B1852002F7B4B /* sehirTanitimKitabiUITestsLaunchTests.swift */; };
+		580DF4B3287B1914002F7B4B /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580DF4B2287B1914002F7B4B /* DetailsViewController.swift */; };
+		580DF4B5287B1CF4002F7B4B /* sehir.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580DF4B4287B1CF4002F7B4B /* sehir.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		580DF496287B1852002F7B4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 580DF477287B184C002F7B4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 580DF47E287B184C002F7B4B;
+			remoteInfo = sehirTanitimKitabi;
+		};
+		580DF4A0287B1852002F7B4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 580DF477287B184C002F7B4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 580DF47E287B184C002F7B4B;
+			remoteInfo = sehirTanitimKitabi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		580DF47F287B184C002F7B4B /* sehirTanitimKitabi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sehirTanitimKitabi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		580DF482287B184C002F7B4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		580DF484287B184C002F7B4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		580DF486287B184C002F7B4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		580DF489287B184C002F7B4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		580DF48B287B1851002F7B4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		580DF48E287B1852002F7B4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		580DF490287B1852002F7B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		580DF495287B1852002F7B4B /* sehirTanitimKitabiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sehirTanitimKitabiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		580DF499287B1852002F7B4B /* sehirTanitimKitabiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sehirTanitimKitabiTests.swift; sourceTree = "<group>"; };
+		580DF49F287B1852002F7B4B /* sehirTanitimKitabiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sehirTanitimKitabiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		580DF4A3287B1852002F7B4B /* sehirTanitimKitabiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sehirTanitimKitabiUITests.swift; sourceTree = "<group>"; };
+		580DF4A5287B1852002F7B4B /* sehirTanitimKitabiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sehirTanitimKitabiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		580DF4B2287B1914002F7B4B /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		580DF4B4287B1CF4002F7B4B /* sehir.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sehir.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		580DF47C287B184C002F7B4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		580DF492287B1852002F7B4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		580DF49C287B1852002F7B4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		580DF476287B184C002F7B4B = {
+			isa = PBXGroup;
+			children = (
+				580DF481287B184C002F7B4B /* sehirTanitimKitabi */,
+				580DF498287B1852002F7B4B /* sehirTanitimKitabiTests */,
+				580DF4A2287B1852002F7B4B /* sehirTanitimKitabiUITests */,
+				580DF480287B184C002F7B4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		580DF480287B184C002F7B4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				580DF47F287B184C002F7B4B /* sehirTanitimKitabi.app */,
+				580DF495287B1852002F7B4B /* sehirTanitimKitabiTests.xctest */,
+				580DF49F287B1852002F7B4B /* sehirTanitimKitabiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		580DF481287B184C002F7B4B /* sehirTanitimKitabi */ = {
+			isa = PBXGroup;
+			children = (
+				580DF482287B184C002F7B4B /* AppDelegate.swift */,
+				580DF484287B184C002F7B4B /* SceneDelegate.swift */,
+				580DF486287B184C002F7B4B /* ViewController.swift */,
+				580DF4B2287B1914002F7B4B /* DetailsViewController.swift */,
+				580DF4B4287B1CF4002F7B4B /* sehir.swift */,
+				580DF488287B184C002F7B4B /* Main.storyboard */,
+				580DF48B287B1851002F7B4B /* Assets.xcassets */,
+				580DF48D287B1852002F7B4B /* LaunchScreen.storyboard */,
+				580DF490287B1852002F7B4B /* Info.plist */,
+			);
+			path = sehirTanitimKitabi;
+			sourceTree = "<group>";
+		};
+		580DF498287B1852002F7B4B /* sehirTanitimKitabiTests */ = {
+			isa = PBXGroup;
+			children = (
+				580DF499287B1852002F7B4B /* sehirTanitimKitabiTests.swift */,
+			);
+			path = sehirTanitimKitabiTests;
+			sourceTree = "<group>";
+		};
+		580DF4A2287B1852002F7B4B /* sehirTanitimKitabiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				580DF4A3287B1852002F7B4B /* sehirTanitimKitabiUITests.swift */,
+				580DF4A5287B1852002F7B4B /* sehirTanitimKitabiUITestsLaunchTests.swift */,
+			);
+			path = sehirTanitimKitabiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		580DF47E287B184C002F7B4B /* sehirTanitimKitabi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 580DF4A9287B1852002F7B4B /* Build configuration list for PBXNativeTarget "sehirTanitimKitabi" */;
+			buildPhases = (
+				580DF47B287B184C002F7B4B /* Sources */,
+				580DF47C287B184C002F7B4B /* Frameworks */,
+				580DF47D287B184C002F7B4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sehirTanitimKitabi;
+			productName = sehirTanitimKitabi;
+			productReference = 580DF47F287B184C002F7B4B /* sehirTanitimKitabi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		580DF494287B1852002F7B4B /* sehirTanitimKitabiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 580DF4AC287B1852002F7B4B /* Build configuration list for PBXNativeTarget "sehirTanitimKitabiTests" */;
+			buildPhases = (
+				580DF491287B1852002F7B4B /* Sources */,
+				580DF492287B1852002F7B4B /* Frameworks */,
+				580DF493287B1852002F7B4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				580DF497287B1852002F7B4B /* PBXTargetDependency */,
+			);
+			name = sehirTanitimKitabiTests;
+			productName = sehirTanitimKitabiTests;
+			productReference = 580DF495287B1852002F7B4B /* sehirTanitimKitabiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		580DF49E287B1852002F7B4B /* sehirTanitimKitabiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 580DF4AF287B1852002F7B4B /* Build configuration list for PBXNativeTarget "sehirTanitimKitabiUITests" */;
+			buildPhases = (
+				580DF49B287B1852002F7B4B /* Sources */,
+				580DF49C287B1852002F7B4B /* Frameworks */,
+				580DF49D287B1852002F7B4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				580DF4A1287B1852002F7B4B /* PBXTargetDependency */,
+			);
+			name = sehirTanitimKitabiUITests;
+			productName = sehirTanitimKitabiUITests;
+			productReference = 580DF49F287B1852002F7B4B /* sehirTanitimKitabiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		580DF477287B184C002F7B4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					580DF47E287B184C002F7B4B = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					580DF494287B1852002F7B4B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 580DF47E287B184C002F7B4B;
+					};
+					580DF49E287B1852002F7B4B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 580DF47E287B184C002F7B4B;
+					};
+				};
+			};
+			buildConfigurationList = 580DF47A287B184C002F7B4B /* Build configuration list for PBXProject "sehirTanitimKitabi" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 580DF476287B184C002F7B4B;
+			productRefGroup = 580DF480287B184C002F7B4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				580DF47E287B184C002F7B4B /* sehirTanitimKitabi */,
+				580DF494287B1852002F7B4B /* sehirTanitimKitabiTests */,
+				580DF49E287B1852002F7B4B /* sehirTanitimKitabiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		580DF47D287B184C002F7B4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580DF48F287B1852002F7B4B /* LaunchScreen.storyboard in Resources */,
+				580DF48C287B1851002F7B4B /* Assets.xcassets in Resources */,
+				580DF48A287B184C002F7B4B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		580DF493287B1852002F7B4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		580DF49D287B1852002F7B4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		580DF47B287B184C002F7B4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580DF4B5287B1CF4002F7B4B /* sehir.swift in Sources */,
+				580DF487287B184C002F7B4B /* ViewController.swift in Sources */,
+				580DF483287B184C002F7B4B /* AppDelegate.swift in Sources */,
+				580DF485287B184C002F7B4B /* SceneDelegate.swift in Sources */,
+				580DF4B3287B1914002F7B4B /* DetailsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		580DF491287B1852002F7B4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580DF49A287B1852002F7B4B /* sehirTanitimKitabiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		580DF49B287B1852002F7B4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580DF4A4287B1852002F7B4B /* sehirTanitimKitabiUITests.swift in Sources */,
+				580DF4A6287B1852002F7B4B /* sehirTanitimKitabiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		580DF497287B1852002F7B4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 580DF47E287B184C002F7B4B /* sehirTanitimKitabi */;
+			targetProxy = 580DF496287B1852002F7B4B /* PBXContainerItemProxy */;
+		};
+		580DF4A1287B1852002F7B4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 580DF47E287B184C002F7B4B /* sehirTanitimKitabi */;
+			targetProxy = 580DF4A0287B1852002F7B4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		580DF488287B184C002F7B4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				580DF489287B184C002F7B4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		580DF48D287B1852002F7B4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				580DF48E287B1852002F7B4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		580DF4A7287B1852002F7B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		580DF4A8287B1852002F7B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		580DF4AA287B1852002F7B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = sehirTanitimKitabi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ertugrulberber.sehirTanitimKitabi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		580DF4AB287B1852002F7B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = sehirTanitimKitabi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ertugrulberber.sehirTanitimKitabi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		580DF4AD287B1852002F7B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ertugrulberber.sehirTanitimKitabiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sehirTanitimKitabi.app/sehirTanitimKitabi";
+			};
+			name = Debug;
+		};
+		580DF4AE287B1852002F7B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ertugrulberber.sehirTanitimKitabiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sehirTanitimKitabi.app/sehirTanitimKitabi";
+			};
+			name = Release;
+		};
+		580DF4B0287B1852002F7B4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ertugrulberber.sehirTanitimKitabiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sehirTanitimKitabi;
+			};
+			name = Debug;
+		};
+		580DF4B1287B1852002F7B4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ertugrulberber.sehirTanitimKitabiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = sehirTanitimKitabi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		580DF47A287B184C002F7B4B /* Build configuration list for PBXProject "sehirTanitimKitabi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				580DF4A7287B1852002F7B4B /* Debug */,
+				580DF4A8287B1852002F7B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		580DF4A9287B1852002F7B4B /* Build configuration list for PBXNativeTarget "sehirTanitimKitabi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				580DF4AA287B1852002F7B4B /* Debug */,
+				580DF4AB287B1852002F7B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		580DF4AC287B1852002F7B4B /* Build configuration list for PBXNativeTarget "sehirTanitimKitabiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				580DF4AD287B1852002F7B4B /* Debug */,
+				580DF4AE287B1852002F7B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		580DF4AF287B1852002F7B4B /* Build configuration list for PBXNativeTarget "sehirTanitimKitabiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				580DF4B0287B1852002F7B4B /* Debug */,
+				580DF4B1287B1852002F7B4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 580DF477287B184C002F7B4B /* Project object */;
+}
